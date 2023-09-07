@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creá tu cuenta</title>
+</head>
+<body>
+    <form action="/" method="get">
+        <div>
+            <label for="nombre"></label>
+            <input type="text" name="nombre" placeholder="Nombre y Apellido">
+        </div> 
+        <div>
+            <label for="user"></label>
+            <input type="text" name="user" placeholder="Nombre de Usuario">
+        </div>
+        <div>
+            <label for="email"></label>
+            <input type="email" name="email" placeholder="E-mail">
+        </div>
+        <div>
+            <label for="fdn">Fecha de Nacimiento</label>
+            <input type="date" name="fecha">
+        </div>
+        <div>
+            <label for="dom"></label>
+            <input type="text" name="dom" placeholder="Domicilio">
+        </div>
+        <div>
+            <label for="pfu">Perfil de Usuario</label>
+            <input type="radio" name="PdU" value="comprador">Comprador
+            <input type="radio" name="PdU" value="vendedor">Vendedor
+        </div>
+        <div>
+            <label for="intereses">Intereses</label>
+            <input type="checkbox" name="intereses" value="electro">Electro
+            <input type="checkbox" name="intereses" value="moda">Moda
+            <input type="checkbox" name="intereses" value="hogar">Hogar
+            <input type="checkbox" name="intereses" value="jugueteria">Juguetería
+            <input type="checkbox" name="intereses" value="vs">Vida Sana
+        </div>
+        <div>
+            <label for="password"></label>
+            <input type="password" name="password" placeholder="Contraseña">
+        </div>
+        <div>
+            <label for="conf_password"></label>
+            <input type="password" name="conf_password" placeholder="Confirmar Contraceña">
+        </div>
+        <div>
+            <label for="FdU">Foto de Usuario:</label>
+            <input type="file" name="foto" id="files" accept=".png .jpg .jpeg">
+        </div>
+    </form>
+</body>
+</html>

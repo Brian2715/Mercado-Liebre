@@ -1,0 +1,527 @@
+/* Paleta de Colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+/* HEADER PRINCIPAL*/
+.main-header {
+    background-color: #EAC926;
+    width: 100%;
+    padding: 13px;
+    padding-bottom: 1px;
+    /* display: flex; */
+    min-width: 270px;
+    /* background-color: brown; */
+    flex-wrap: wrap;
+    display: flex;
+}
+
+/* HEADER SUPERIOR */
+.main-header-top{
+    width: 100%;
+    flex-wrap: wrap;
+    /* background-color: #222222; */
+    display: flex;
+}
+
+/* HEADER SUPERIOR LOGO */
+.main-header-logo{
+    display: flex;
+    width: 50%;
+    /* padding: 5px; */
+    /* background-color: lightcoral; */
+    justify-content: center;
+}
+
+/* LOGO "Mercado Liebre" */
+.img-logo{
+    width: 125px;
+    /* background-color: #222222; */
+    /* padding: 3px; */
+}
+
+/* HEADER SUPERIOR BUSCADOR "Buscar productos, marcas..." */
+.search-bar{
+    flex-wrap: wrap;
+    display: flex;
+    width: 50%;
+    /* background-color: aquamarine; */
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+}
+input#buscador{
+    height: 23px;
+    width: 90px;
+    max-width: 200px;
+    /* background-color: bisque; */
+    border-radius: 3px;
+    font-size: 9px;
+    padding: 8px;
+    margin: 0px 1px 0px 0px;
+    border-color: white;
+    border-style: none;
+}
+button#lupa{
+    display: flex;
+    height: 23px;
+    width: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 3px;
+    border-color: white;
+    border-style: none;
+    font-size: 10px;
+}
+/* Titulo Header "Compra en cuotas y sin tarjeta de credito" */
+p.titulo-header{
+    flex-wrap: wrap;
+    /* font-weight: 100%; */
+    font-size: 70%;
+    /* background-color: lawngreen; */
+    /* text-align: center; */
+    text-align: center;
+    margin: 10px 5px 5px 5px;
+    width: 100%;
+}
+
+h3.titulos-header i{
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+
+/* icono de hambuerguesa centrado */
+.burguer{
+    text-align: center;
+    /* display: block; */
+    background-color: #EAC926;/* #03264C */
+    color: black;
+    max-width: 28px;
+    border-radius: 5px;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: auto;
+}
+
+.img-banner{
+    width: 100%;
+    min-width: 270px;
+}
+
+/* quita las vista y viñetas del menu de navegacion */
+.menu-header{
+    display: none;
+}
+.menu-header li a{
+    text-decoration: none; /* saca el subrayado que contiene el menu de navegacion */
+    color: #222222;
+
+}
+
+main{
+    width: 100%;
+    min-width: 270px;
+}
+.main-section-one{
+    display: flex;
+    width: 100%;
+    /* min-width: 270px; */
+    flex-wrap: wrap;
+    /* background-color: #EAC926; */
+    justify-content: space-around;
+}
+
+.titulos{
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+/* main section article */
+.card{
+    width: 270px;
+    margin-bottom: 10px;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    background-color: white;
+    /* margin-right: 15px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    /* border: 1px solid black; */
+    border-top: 1px solid #ebebeb;
+    /* #ebebeb */
+    width: 100%;
+    margin: 5px;
+}
+
+.img_prod{
+    display: flex;
+    width: 250px;
+    background-color: darkcyan;
+    justify-content: end;
+}
+
+.infocard{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    margin: 10px;
+}
+
+.precio{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 30%;
+    /* padding-left: 15px; */
+    /* margin-top: 3px; */
+    font-size: 18px;
+    color:black;
+    /* border: solid green; */
+    /* background-color:burlywood; */
+    margin-right: 15px;
+}
+
+.descuento{
+    display: flex;
+    color: green;
+    width: 60%;
+    /* padding-top: 2px; */
+    padding-left: 16px;
+    /* padding-bottom: 15px; */
+    font-size: 16px;
+    align-items: center;
+    /* border: solid red; */
+    /* background-color: green !important; */
+}
+
+
+.descripcion{
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    color:gray;
+    padding-left: 15px;
+    /* background-color: blueviolet; */
+    justify-content: start;
+}
+
+main section article nav i{
+    padding-left: 15px;
+    padding-bottom: 5px;
+    width: 25px;
+    margin-left: 15px;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: white;
+    color: #39b54a;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+    margin-right: 25px;
+}
+#camion{
+    display: flex;
+    width:100%;
+    /* border: solid red; */
+    /* background-color: aquamarine; */
+    justify-content: end;
+}
+
+/* FOOTER */
+
+.main-footer{
+    width: 100%;
+    min-width: 270px;
+    background-color: white;
+    padding: 15px;
+}
+
+.info-footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #1259c3; */
+    padding: 10px;
+}
+
+.pes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+footer section div i{
+    color: #1259c3;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.footer-titulo{
+    display: flex;
+}
+
+.footer-descripcion{
+    text-align: center;
+    margin: 10px 5px;
+    /* background-color: #39b54a; */
+    padding: 5px;
+}
+
+.copy-ml{
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+}
+
+@media (min-width: 287px){
+    p.titulo-header{
+        flex-wrap: wrap;
+        /* font-weight: 100%; */
+        font-size: 80%;
+        /* background-color: lawngreen; */
+        /* text-align: center; */
+        text-align: center;
+        margin: 10px 5px 5px 5px;
+        width: 100%;
+    }
+}
+@media (min-width: 320px){
+    input#buscador{
+        width: 120px;
+    }
+
+}
+
+@media (min-width:768px){
+
+    .burguer{
+        display: none;
+    }
+
+            /* HEADER */
+
+    .main-header {
+        background-color: #EAC926;
+        width: 100%;
+        padding: 15px;
+        /* padding-bottom: 5px; */
+        display: flex;
+        /* min-width: 270px; */
+        /* background-color: brown; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .main-header-top{
+        width: 60%;
+        /* flex-wrap: wrap; */
+        /* background-color: salmon; */
+        display: flex;
+    }
+
+    .main-header-logo{
+        display: flex;
+        width: 50%;
+        /* padding: 5px; */
+        /* background-color: lightcoral; */
+        justify-content: start;
+    }
+
+    .img-logo{
+        width: 180px;
+        /* background-color: #222222; */
+        /* padding: 3px; */
+    }
+
+    .search-bar{
+    /* flex-wrap: wrap; */
+    display: flex;
+    width: 50%;
+    /* background-color: aquamarine; */
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    }
+    input#buscador{
+        height: 30px;
+        width: 80%;
+        /* background-color: bisque; */
+        border-radius: 3px;
+        font-size: 11px;
+        padding: 8px;
+        margin: 0px 1px 0px 0px;
+        border-color: white;
+        border-style: none;
+    }
+    button#lupa{
+        display: flex;
+        height: 30px;
+        width: 20px;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        border-radius: 3px;
+        border-color: white;
+        border-style: none;
+        font-size: 10px;
+    }
+
+    p.titulo-header{
+        /* flex-wrap: wrap; */
+        /* font-weight: 100%; */
+        display: flex;
+        font-size: 80%;
+        /* background-color: lawngreen; */
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        width: 37%;
+    }
+
+    .menu-header{
+        /* display: none; */
+        display: flex;
+        /* list-style: none; */
+        /* background-color: violet !important; */
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 5px;
+        padding: 10px 15px;
+    }
+    .menu-header ul{
+        display: flex;
+    }
+    .menu-header li{
+        margin: 0px 9px;
+        font-size: 13px;
+    }
+
+    .nav-izquierdo{
+        list-style: none;
+    }
+    .nav-derecho{
+        list-style: none;
+    }
+
+
+    .footer-descripcion{
+        width: 370px;
+    }
+}
+
+@media (min-width: 1024px){
+    /* HEADER */
+    .main-header-top{
+        width: 65%;
+        /* background-color: salmon; */
+    }
+
+    .main-header-logo{
+        /* background-color: greenyellow; */
+        padding: 0px 25px;
+    }
+
+    .img-logo{
+        width: 215px;
+        /* background-color: #222222; */
+    }
+
+    input#buscador{
+        height: 35px;
+        width: 100%;
+        /* background-color: bisque; */
+        font-size: 14px;
+    }
+    button#lupa{
+        height: 35px;
+        width: 25px;
+    }
+
+    p.titulo-header{
+        font-size: 90%;
+        /* background-color: lawngreen; */
+        width: 30%;
+    }
+
+    /* MENU */
+    .menu-header{
+        /* background-color: violet !important; */
+        margin-top: 10px;
+        padding: 10px 30px;
+    }
+    .menu-header li{
+        margin: 0px 12px;
+        font-size: 15px;
+    }
+
+    /* FOOTER */
+
+    .info-footer{
+        /* background-color: #1259c3; */
+        justify-content: space-around;
+    }
+    .pes{
+        width: 30%;
+        padding: 15px;
+        margin: 10px 0px;
+        /* background-color: #39b54a; */
+    }
+
+    .footer-descripcion{
+        margin: 10px;
+        height: 100px;
+        width: 245px;
+        /* background-color: #ebebeb; */
+    }
+
+    .copy-ml{
+        /* background-color: blueviolet; */
+        margin: 15px;
+    }
+}
+
+@media (min-width: 1100px){
+    .footer-descripcion{
+        width: 265px;
+    }
+}
